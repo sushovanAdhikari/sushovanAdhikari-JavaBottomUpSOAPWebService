@@ -1,0 +1,20 @@
+## 
+	Sushovan Adhikari
+	SOAP Web Service Java 
+				 ##
+
+The project is an ongoing progress so I have created this file to push into the master branch. 
+The implemented feature will later be merged onto the master branch. 
+
+The WebService is created using SOAP Bottom Up approach, i.e Java --> WSDL
+
+The WebService Project works likes this, 
+
+Req -> EmployeeService -> EmployeeBO -> EmployeeDAO -> OracleDB
+
+The project has property helper class implementing singleton design pattern that contains the environment variables(DB string) and so on. 
+
+
+The project will first implement a simple getEmployee service to retrieve the employee information and as the work progresses, the project will
+implemnt ORM framework(Hibernate) to efficiently map the Employeee object to DB table. 
+
